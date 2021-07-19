@@ -1,0 +1,15 @@
+{
+  "name": "realestate",
+  "version": "1.0.0",
+  "description": "This Package is built for Real Estate Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chiranjeeb Nayak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
