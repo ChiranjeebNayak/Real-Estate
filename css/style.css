@@ -17772,8 +17772,8 @@ input.cart-plus-minus-box {
 }
 .homeTabBox ul li:hover span,
 .homeTabBox ul li.active span {
-  color: #5e449b;
-  border-bottom: #5e449b solid 2px;
+  color: black;
+  border-bottom: black solid 2px;
   transition: 0.3s;
 }
 .homeTabBox ul li.active a {
@@ -17811,7 +17811,7 @@ input.cart-plus-minus-box {
   height: 23px !important;
 }
 .moreServicesLink:hover {
-  color: #5e449b;
+  color: #000000;
   transition: 0.3s;
 }
 .homeTabBox ul li.moreServices:hover .moreServicesDropDown {
