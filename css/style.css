@@ -17667,57 +17667,11 @@ input.cart-plus-minus-box {
 
 /*# sourceMappingURL=style.css.map */
 
-/* .homeTabBox {
-  border: 1px solid orange;
-  margin-top: 0;
-  display: block;
-  position: relative;
-  z-index: 4;
-  text-align: center;
-}
-.homeTabBox ul {
-  border: 5px solid Black;
-  display: inline-flex;
-  height: 100px;
-  background: #fff;
-  border-radius: 8px;
-  text-align: center;
-}
-.homeTabBox ul li{
-  border: 1px solid red;
-  width: 100px;
-  list-style: none;
-  margin: 0px 0px;
-  background: rgb(80, 79, 79);
-  text-align: center;
-}
-.homeTabBox ul li i{
-  border :1px solid yellow;
-  font-size: 2rem;
-}
-.homeTabBox ul li a {
-  display: block;
-  padding: 0px 0px;
-  width: 100%;
-}
-.homeTabBox ul li a span{
-  border: 1px sold green;
-  color: black;
-}
-.homeTabBox ul li:hover .hti-icon1, .homeTabBox ul li.active .hti-icon1 {
-  background-position: -1px -30px;
-}
 
-.homeTabBox ul li i {
-  height: 29px;
-  width: 38px;
-  display: inline-block;
-  transition: .3s;
-} */
 
 .homeTabBox {
   margin-top: 0;
-  margin-left: -5rem;
+  margin-left: 0rem;
   display: block;
   position: relative;
   z-index: 4;
