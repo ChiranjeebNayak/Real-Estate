@@ -511,6 +511,7 @@ ol li {
 .section-bg-3 .btn-wrapper button {
   color: var(--white);
 }
+
 .section-bg-3 input::-webkit-input-placeholder {
   color: var(--white);
 }
@@ -7394,7 +7395,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .ltn__slide-item {
   padding-top: 100px;
   padding-bottom: 100px;
-  height: 750px;
+  height: 700px;
 }
 
 .ltn__slide-item-inner {
