@@ -17851,3 +17851,125 @@ input.cart-plus-minus-box {
 .homeTabBox ul li.active .hti-icon8 {
   background-position: -272px -30px;
 }
+
+
+.searchBox{padding:42px 22px 26px;margin-top:-25px;display:none;background:rgba(0,0,0,0.5);position:relative;border-radius:8px;width:100%;height:128px}
+.searchBox.active{display:flex}
+.searchBox ul{display:none}
+.searchBox .flaxMarginLeft{margin-left:0!important}
+.searchBox .flaxMarginLeft button{border-radius:0!important}
+.searchBox .dropdown-toggle{padding:0 30px 0 18px;width:100%;height:40px;display:block;position:relative;background:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:left;cursor:pointer;border-radius:5px;font-size:13px}
+.searchBox .dropdown-toggle::after{content:"\e919";font-family:icomoon;font-size:12px;color:#333;position:absolute;right:18px;top:25px;transition:.3s}
+.searchBox .inputGroupAdd{margin:0;display:block;position:relative;z-index:1;width:150px}
+.searchBox .inputGroupAdd button,.searchBox .inputGroupAdd .custom-combobox input{width:150px;background:#fff;border-radius:8px 0 0 8px;border:0;border-right:#E6E6E6 solid 1px;height:60px;font-weight: 600;color: #333;outline:none; font-size: 14px;}
+.searchBox .inputGroupAdd .custom-combobox a{position:absolute;right:0;border:none;background:transparent}
+.searchBox .input-group{width:100%;display:block}
+.searchBoxAgent .input-group{width:100%;display:flex;align-items:center}
+.searchBox .input-group .form-control{border-radius:0;border:0;height:60px;background:#fff;font-weight: 600;color:#333; font-size: 14px;}
+.searchBox .input-group .form-control::placeholder{color:#333;font-size: 14px;font-weight: normal;}
+.searchBox .input-group .form-control:focus{border:0;box-shadow:none}
+.searchBox .sBox{width:100%}
+.searchBox .sBox.addedChip{padding-bottom:8px;background:#fff;position:absolute;top:0;left:0;border-radius:0 0 8px 8px;min-height:52px}
+.searchBox .sBox.addedChip .input-group{padding:8px 0}
+.searchBox .sBox.addedChip .input-group .form-control{display:inline-block;width:150px;float:left;height:44px}
+.searchBoxAgent .sBox.addedChip{padding-bottom:0;background:#fff;position:absolute;top:0;left:0;border-radius:0 0 8px 8px;min-height:52px}
+.searchBoxAgent .sBox.addedChip .input-group .form-control{display:inline-block;width:150px;float:left;height:32px}
+searchBox .sBox .autoComplete{top:60px;}
+
+.searchBox button{padding:5px;font-size: 14px;background:#58BF93;color:#fff;border-radius:8px;border:0;cursor:pointer;display:flex;height:60px;align-items:center;transition:.3s;font-weight: 600;}
+.searchBox .btnWidth{width:134px;transition:.3s;}
+.searchBox .btnWidth .btnFlex{display:flex;align-items:center;justify-content:center;transition:.3s;}
+.searchBox .btnWidth small{ padding-top:5px;transition:.3s;display:block}
+.searchBox button em{margin-right:5px;font-size:20px;transition:.3s;}
+.searchBox .hideipadSearchBtn.active em{font-size:15px;transition:.3s;}
+
+
+.searchBox .hideipadSearchBtn{margin-left:10px}
+.searchBox .input-group .autoComplete{max-height:0;overflow:hidden}
+.searchBox .dropdown{float:left;margin-left:10px;position:relative}
+.searchBox .dropdown.budget,.searchBox .dropdown.more{margin-left:0}
+.searchBox .dropdown.budget .dropdown-toggle{width:150px;height:60px;color:#333;border-radius:0;border-left:#E6E6E6 solid 1px; font-size: 14px;font-weight: 600;}
+.searchBox .dropdown.more .dropdown-toggle{width:185px;height:60px;color:#333;border-radius:0 8px 8px 0;border-left:#E6E6E6 solid 1px;display:flex;display:-webkit-flex;align-items:center;font-size: 14px;font-weight: 600;}
+.searchBox .dropdown.more .dropdown-toggle.empType{width: 245px;}
+.searchBox .dropdown .dropdown-toggle .value{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.searchBox .dropdown .dropdown-toggle .budge{padding:0 5px;margin-left:5px;background:#333;color:#fff;min-width:23px;font-size:11px;height:18px;overflow:hidden;display:flex;display:-webkit-flex;align-items:center;justify-content:center;border-radius:10px}
+.searchBox .dropdown-menu .contentBox{padding:10px 15px;max-height:250px;overflow:auto;display:block}
+.searchBox .dropdown .dropdown-menu{padding:5px 3px 5px 0;position:absolute;left:0;top:52px;display:none;background:#fff;transition:.3s;z-index:9;box-shadow:0 2px 9px 0 rgba(0,0,0,0.14);border-radius:5px;text-align:left}
+.searchBox .ipadSearchBtn{border-radius:8px 0 0 8px;color:#ccc;display:none;background:#fff}
+.searchBox .ipadSearchBtn em{margin:0}
+.searchBox .inputBox1{display:flex;width:100%;position:relative;padding-left:150px}
+.searchBox .inputBox1 .fullBox1{position:absolute;left:0}
+.searchBox .inputBox1 .fullBox2{display:flex;width:100%;max-width:550px;position:relative;z-index:3;background:#fff}
+.searchBoxAgent .inputBox1 .fullBox2{display:flex;width:100%;max-width:830px;position:relative;z-index:3;background:#fff}
+.searchBox .inputBox2{display:flex}
+.searchBox .dropdown.more .dropdown-menu strong{padding:0 0 3px;margin:0 0 3px;display:block;border-bottom:1px solid #E0E0E0;font-weight: 600;color:#333}
+.searchBox .dropdown.more .dropdown-menu{padding:0}
+@media screen and (max-width:1024px) {
+  .searchBoxAgent .sBox.addedChip{padding-bottom:0}
+  }
+  @media screen and (max-width:768px) {
+  .bnrBox h1{font-size:35px}
+  .homeTabBox ul{width:100%}
+  .homeTabBox ul li.moreServices span:after{right:-8px}
+  .homeTabBox ul li span,.homeTabBox ul li a{font-size:12px}
+  .searchBox{height:auto}
+  .manage span{margin-right:5px;display:inherit!important}
+  .manage strong{display:none!important}
+  .videoFixedBox{display:none}
+  .searchBox.active{display:block;border-radius:0 0 8px 8px}
+  .searchBox .inputBox1 .fullBox2{border-radius:0 8px 8px 0}
+  .searchBox .inputBox2{max-height:0;overflow:hidden}
+  .searchBox .hideipadSearchBtn{display:none}
+  .searchBox .ipadSearchBtn{padding-left: 15px;display:block}
+  .searchBox .ipadSearchBtn.addedChip{padding-left: 15px;position:relative;left:0px;}
+  .searchBox .sBox.addedChip{width:calc(100% - 60px);border-radius:8px 0 8px 8px}
+  .searchBoxAgent .sBox.addedChip{padding-bottom:0}
+  .searchBoxAgent .fullBox2.chipped{display:block}
+  .searchBox.active .inputBox2{margin-top:10px;max-height:inherit;overflow:inherit;transition:.3s}
+  .searchBox .dropdown.budget .dropdown-toggle{border-radius:8px 0 0 8px}
+  .searchBox .dropdown.budget,.searchBox .dropdown.more{width:50%}
+  .searchBoxAgent .dropdown.more{width:100%}
+  .searchBoxAgent .dropdown.more .dropdown-toggle{border-radius:8px}
+  .searchBox .dropdown.budget .dropdown-toggle,.searchBox .dropdown.more .dropdown-toggle{width:100%}
+  .searchBox .dropdown:hover .dropdown-menu,.searchBox .dropdown.active .dropdown-menu{left:inherit;right:0}
+  .searchBox .input-group .form-control{border-radius:0 8px 8px 0}
+  .detectMyLocation{padding:4px;cursor:pointer}
+  .detectMyLocation .myLocationBtn{padding:12px;border-radius:8px}
+  .detectMyLocation .myLocationBtn small{display:none}
+  .searchBox button em{margin-right:0}
+  .homeDropButton ul.dropdown-menu.option{display:none!important}
+  .homeDropButton.active ul.dropdown-menu.option{display:block!important}
+  .rslAbsDdlLft,.rslAbsDdlRgt,.rntlAbsDdlLft{display:none}
+  .mobileRoadBlockBanner{padding-top:20px}
+  .propertyinCity{padding:20px 0}
+  }
+  @media screen and (max-width:480px) {
+  .searchBox{padding:15px 0;background:none}
+  .searchBox .inputBox1{padding:0}
+  .searchBox .inputBox1 .fullBox1{left:0;top:0;width:100%;z-index:-1}
+  .searchBox .inputBox1 .fullBox2{border-radius:8px;z-index:0}
+  .searchBox .inputGroupAdd button,.searchBox .inputGroupAdd .custom-combobox input{width:100%;border-radius:8px}
+  .searchBox .form-control,.searchBox .inputGroupAdd button,.searchBox .inputGroupAdd .custom-combobox input,.searchBox .ipadSearchBtn,.searchBox .dropdown .dropdown-toggle{height:42px!important}
+  .searchBox .ipadSearchBtn{float:right}
+  .searchBox .input-group .form-control{padding-left:0;border-radius:0 8px 8px 0}
+  .searchBox .dropdown-toggle::after{top:15px}
+  .searchBox .dropdown .dropdown-menu{left:-25px;top:40px}
+  .searchBox .autoComplete ul{position:initial}
+  .searchBox .ipadSearchBtn{padding:10px 12px}
+  .searchBox .ipadSearchBtn.addedChip{left:0;width:43px;border-radius:8px}
+  .searchBox .sBox.addedChip{padding-bottom:6px;width:calc(100% - 45px);min-height:30px}
+  .searchBox .sBox.addedChip .input-group{padding:4px 0}
+  .searchBox .sBox.addedChip .input-group .form-control{height:32px!important;width:120px}
+  .searchBoxAgent .sBox.addedChip{padding-bottom:0}
+  .searchBox .dropdown:hover .dropdown-menu,.searchBox .dropdown.active .dropdown-menu{left:0;right:inherit;top:42px}
+  .tooltips,.agtooltip{left:0;top:50px;z-index:3;right:auto}
+  .searchBox .inputGroupAdd,.searchBox .inputBox1 .fullBox2,.searchChip em{z-index:inherit!important}
+  .searchBox ul.dropdown-menu.option{z-index:3}
+  .searchBox .sBox.addedChip{z-index:2;position:relative}
+  .detectMyLocation span{top:47px;width:200px;z-index:2}
+  .navPanel,.intercomCloseBtn{display:none!important}
+  .detectMyLocation{height:42px;border-radius:0 8px 8px 0}
+  .detectMyLocation .myLocationBtn{padding:7px}
+  .searchBox .autoComplete{width:calc(100% - 44px)!important}
+  .cityAboutBox{padding:20px 0}
+  }
