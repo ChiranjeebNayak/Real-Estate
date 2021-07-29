@@ -12,6 +12,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     
     <!-- Place favicon.png in the root directory -->
@@ -630,9 +631,9 @@
                 </div>
                 <div class="tab-content bg-blacktransparent mt--30 box-shadow-1 pb-10">
                   <div class="tab-pane fade active show" id="ltn__form_tab_1_1">
-                    <div class="car-dealer-form-inner">
-                      <form action="#" class="ltn__car-dealer-form-box row">
-                        <div
+                    <div class="car-dealer-form-inner "style="border: 1px solid red !important;">
+                      <form action="#" class="ltn__car-dealer-form-box row" >
+                        <!-- <div
                           class="
                             ltn__car-dealer-form-item
                             ltn__custom-icon----
@@ -686,7 +687,7 @@
                           "
                         >
                         <div class="btn-wrapper text-center mt-0">
-                          <!-- <button type="submit" class="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory</button> -->
+
                           <a
                             href="shop-right-sidebar.html"
                             class="
@@ -698,6 +699,31 @@
                             >Search</a
                           >
                         </div>
+                        </div>
+                      </form> -->
+                      
+                        <div class="serach" style=" width: 13vw !important;">
+                          <select style="width: 5vw !important;">
+                            <option>Location</option>
+                           </select>
+                        </div>
+                        <div style="width: 20vw !important;">
+                          <input style="height: 60px !important;"type="text" placeholder="your Location"/>
+                        </div>
+                        <div style="width: 15vw !important;">
+                          <select>
+                            <option>Price-Range</option>
+                          </select>
+                        </div>
+                        <div style="width: 15vw !important;">
+                         <select>
+                          <option>Property Type</option>
+                         </select>
+                        </div>
+                        <div style="width: 13vw !important;">
+                          <button style="margin-left:1rem;width: 13vw !important;height: 60px; background-color: rgb(93, 185, 93);">
+                            Search
+                          </button>
                         </div>
                       </form>
                     </div>

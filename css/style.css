@@ -15575,9 +15575,7 @@ input.cart-plus-minus-box {
   height: 60px;
   line-height: 58px;
   padding-right: 40px;
-  padding-left: 20px;
   border-radius: 0;
-  min-width: 200px;
   font-size: 16px;
   font-weight: 500;
   font-family: var(--ltn__heading-font);
